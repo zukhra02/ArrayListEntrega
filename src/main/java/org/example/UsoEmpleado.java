@@ -11,6 +11,11 @@ public class UsoEmpleado {
         listaEmpleados.add(new Empleado("Luis", 35, 32000));
         listaEmpleados.add(new Empleado("Yana", 28, 31000));
 
+        System.out.println();
+        System.out.println(listaEmpleados.size());
+        System.out.println();
+
+
 
         // Iteramos sobre cada empleado en el array y mostramos sus datos
         for (Empleado e : listaEmpleados) {
