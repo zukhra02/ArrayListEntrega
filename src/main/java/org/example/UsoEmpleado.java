@@ -15,6 +15,13 @@ public class UsoEmpleado {
         System.out.println(listaEmpleados.size());
         System.out.println();
 
+        listaEmpleados.set(1, new Empleado("Olga", 32, 22000));
+        System.out.println(listaEmpleados.get(3).dameDatos());
+
+        System.out.println();
+
+
+
 
 
         // Iteramos sobre cada empleado en el array y mostramos sus datos
